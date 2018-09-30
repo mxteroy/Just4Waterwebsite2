@@ -83,6 +83,7 @@
 }
 
 #beMember{
+    max-width: 1920px;
     padding: 25px;
     height: auto;
     width: 100%; 
