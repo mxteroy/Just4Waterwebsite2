@@ -36,19 +36,17 @@
     overflow:hidden;
     text-align: center;
     padding: .5em;
-    margin: 2%;
-    background: #99c24d;
-    box-shadow: 1px 2px 4px 4px rgba(0, 0, 0, .5);
+    /*box-shadow: 1px 2px 4px 4px rgba(0, 0, 0, .5);*/
 }
+
 
 .info{
     margin-left: 1%;
-    
     height: auto;
+    width: 1080px; 
     background: white;
     text-align: center;
     font-family: 'Raleway', serif;
-    border-radius: 10px;
 }
 
 .header h1{
@@ -64,8 +62,8 @@
 }
 
 .info h3{
-    width: 45%;
-    float: left;
+    width: 100%;
+    float: left; 
     font-family: 'Raleway', serif;
     padding: .5em;
     font-size: 1.5em;
@@ -75,4 +73,12 @@
     -moz-user-select: none;
     -ms-user-select: none;
     user-select: none;
+}
+
+#facts{
+    max-width: 1920px;
+    overflow: hidden;
+    background-color: white;
+    width: 100%; 
+    padding: 2.7em;
 }
