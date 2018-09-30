@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway');
 
 body {
-    height: 100%;
+
     width: 100%;
           
 }
@@ -26,7 +26,10 @@ body:before {
   filter: blur(15px);
 }
 #navi{
+      position: fixed;
+  top: 0;
     height: auto;
+    z-index: 4;
     width: 100%; 
     font-family: 'Raleway', serif;
 
@@ -34,5 +37,5 @@ body:before {
 
 .navbar{
        box-shadow: 1px 4px 4px rgba(0, 0, 0, .5);
-    content-align: 
+
 }
