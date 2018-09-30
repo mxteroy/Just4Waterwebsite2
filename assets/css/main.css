@@ -85,7 +85,7 @@
 #beMember{
     padding: 25px;
     height: auto;
-    width: 1080px; 
+    width: 100%; 
     text-align: center;
     font-family: 'Raleway', serif; 
 }
