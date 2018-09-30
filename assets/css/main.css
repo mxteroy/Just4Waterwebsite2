@@ -43,7 +43,7 @@
     margin-left: 1%;
     height: auto;
     width: 1080px; 
-    background: white;
+    background: blue;
     text-align: center;
     font-family: 'Raleway', serif;
 }
@@ -97,6 +97,11 @@
     background-color: cadetblue
 }
 
-#main{
-    height: 91%;
+#home{
+    margin-top: 100px;
+    height: 90%;
+}
+
+#footer{
+    height: 20%;
 }
