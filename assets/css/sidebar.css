@@ -2,10 +2,12 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway');
 
 body {
+    display: block;
     height: 100%;
-       z-index:   
+       z-index:4;
 }
 body:before {
+    overflow:hidden;
   content: "";
   position: fixed;
   left: 0;
@@ -16,8 +18,7 @@ body:before {
   background-image: url('../../images/lightbluewater.png');
   background-size:cover;
   width: 100%;
-  height: 100%;
-
+    height: 100%;
   -webkit-filter: blur(150px);
   -moz-filter: blur(150px);
   -o-filter: blur(150px);
