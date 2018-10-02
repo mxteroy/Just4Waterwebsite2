@@ -32,43 +32,7 @@
 
 <body > 
     <div id="ripple">
-    <div id="navi" >
-    <nav class="navbar navbar-expand-lg navbar-light bg-light" >
-     <a class="navbar-brand" href="#"></a>
-        <img src="images/logo.png" class="img-fluid rounded float-ri ght" alt="J4W Logo" id="logo">
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-          
-          
-      </button>
-
-      <div class="collapse navbar-collapse" id="navbarTogglerDemo02" id="info">
-        <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-          <li class="nav-item active">
-            <a class="nav-link" href="index.html">HOME <span class="sr-only">(current)</span></a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">ABOUT US</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">EVENTS</a>
-          </li>
-            <li class="nav-item">
-            <a class="nav-link" href="#">PROJECTS</a>
-          <!--</li>
-            <li class="nav-item">
-            <a class="nav-link" href="#">ON-CAMPUS</a>
-          </li>-->
-            <li class="nav-item">
-            <a class="nav-link" href="#">GET INVOLVED!</a>
-          </li>
-            <li class="nav-item">
-            <a class="nav-link" href="#">CONTACT US</a>
-          </li>
-        </ul>
-
-      </div>
-    </nav>
+    <div id="nav-placeholder" >
     </div>
 
     
@@ -131,12 +95,12 @@
 
     <div id="jssor_1" data-aos="zoom-in"
      data-aos-offset="300"
-     data-aos-easing="ease-in-sine" style="position:relative;margin:5% auto ;top:0px;left:0px;width:980px;height:450px;overflow:hidden;visibility:hidden; box-shadow: 1px 1px 4px rgba(0, 0, 0, .5);">
+     data-aos-easing="ease-in-sine" style="position:relative;margin:5% auto ;top:0px;left:0px;width:980px;height:480px;overflow:hidden;visibility:hidden; box-shadow: 1px 1px 4px rgba(0, 0, 0, .5);">
         <!-- Loading Screen -->
         <div data-u="loading" class="jssorl-009-spin" style="position:absolute;top:0px;left:0px;width:100%;height:100%;text-align:center;background-color:rgba(0,0,0,0.7);">
             <img style="margin-top:-19px;position:relative;top:50%;width:38px;height:38px;" src="img/spin.svg" />
         </div>
-        <div data-u="slides" style="cursor:default;position:relative;top:0px;left:0px;width:980px;height:450px;overflow:hidden;" >
+        <div data-u="slides" style="cursor:default;position:relative;top:0px;left:0px;width:980px;height:480px;overflow:hidden;" >
             <div>
                 <img data-u="image" src="img/nicaraguaGroup.JPG" />
                 <div u="thumb" id="descriptions">Nicaragua</div>
@@ -193,6 +157,7 @@
         </div>
         <div>
          <h1><strong>Our Mission</strong></h1>
+            <h4>We fulfill 3 targets of Goal 6 of the UN Goals for Sustainable Development</h4>
             <h2>Target 2</h2>
             <p data-aos="fade-right">By 2030, achieve access to adequate and equitable sanitation and hygiene for all and end open defecation, paying special attention to the needs of women and girls and those in vulnerable situations</p>
             <h2>Target 7</h2>
@@ -263,6 +228,12 @@
   <!-- Footer -->
         </div>
 </body>
+    <script src="//code.jquery.com/jquery.min.js"></script>
+    <script>
+    $.get("navHome.html", function(data){
+        $("#nav-placeholder").replaceWith(data);
+    });
+    </script>
     <script>
   AOS.init();
 </script>

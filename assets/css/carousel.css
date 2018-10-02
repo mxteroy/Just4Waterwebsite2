@@ -16,4 +16,11 @@
         .jssora061 .a {fill:none;stroke:#fff;stroke-width:360;stroke-linecap:round;}
         .jssora061:hover {opacity:.8;}
         .jssora061.jssora061dn {opacity:.5;}
-        .jssora061.jssora061ds {opacity:.3;pointer-events:none;}
+        .jssora061.jssora061ds {opacity:.3;pointer-events:none;
+
+-webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;}
