@@ -1,0 +1,10 @@
+#board{
+    display: inline-block; 
+    font-family: 'Raleway', serif;
+}
+
+#board img{
+    height: 250px; 
+    width: 200px; 
+    margin: 30px;  
+}

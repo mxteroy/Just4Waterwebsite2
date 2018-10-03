@@ -6,6 +6,7 @@ body {
     height: 100%;
        z-index:4;
     min-height: 600px;
+    font-family: 'Raleway', serif;
 }
 body:before {
     overflow:hidden;

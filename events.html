@@ -6,6 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
     <link rel="stylesheet" href="assets/css/sidebar.css"/>
+    <link rel="stylesheet" href="assets/css/main.css"/>
+    <link rel="stylesheet" href="assets/css/carousel.css">
     <!-- Bootstrap CSS CDN -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
     
@@ -31,16 +33,59 @@
 <body > 
     <div id="nav-placeholder" >
     </div>
+    <div id="ripple">
+    
 
     
+    <div id="home">
     
+    <div class="container-fluid header" style="width: 90%; min-width: 340px"><h1><strong>Meet the Team</strong></h1>
+        <div class="container-fluid info" data-aos="flip-right"
+     data-aos-anchor="#example-anchor"
+     data-aos-offset="500"
+     data-aos-duration="1500">
+        <h3>Pictures go here
+            </h3>
+    </div>
+    </div>
+    </div>
+    <div class="container-fluid" id="facts">
+        <div>
+         <h1><strong>Our History</strong></h1>
+
+            <h2>The Beginning</h2>
+            <p data-aos="fade-right">Placeholder</p>
+            <h2>The Present</h2>
+            <p data-aos="fade-right">Placeholder</p>
+        </div>
+    </div>
+
+    <div class="container-fluid" id="beMember">
+        <button type="button" class="btn btn-info">Become a Member!</button>
+    </div>
+    
+    <!-- Footer -->
+<footer id="foot-placeholder">
+  </footer>
+  <!-- Footer -->
+        </div>
 </body>
+    <!--inherits header-->
     <script src="//code.jquery.com/jquery.min.js"></script>
     <script>
-    $.get("navi.html", function(data){
+    $.get("navEvents.html", function(data){
         $("#nav-placeholder").replaceWith(data);
     });
-</script>
+    </script>
+    
+    <!--inherits footer-->
+    <script src="//code.jquery.com/jquery.min.js"></script>
+    <script>
+    $.get("footer.html", function(data){
+        $("#foot-placeholder").replaceWith(data);
+    });
+    </script>
+    
     <script>
   AOS.init();
 </script>
