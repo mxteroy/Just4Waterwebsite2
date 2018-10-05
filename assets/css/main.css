@@ -1,6 +1,15 @@
 @import "https://fonts.googleapis.com/css?family=Roboto+Slab:300,400,500,600,700";
 @import url('https://fonts.googleapis.com/css?family=Raleway');
 
+.noTouch{
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
 #logo-text.before{
     display: flex;
     position: relative;
@@ -43,12 +52,7 @@
     padding: .5em;
     padding-bottom: .2em;
     font-size: 3.2em;
-    -webkit-touch-callout: none;
-    -webkit-user-select: none;
-    -khtml-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
+
 }
 
 .info{
@@ -66,12 +70,6 @@
     font-family: 'Raleway', serif;
     padding: .5em;
     font-size: 1.5em;
-    -webkit-touch-callout: none;
-    -webkit-user-select: none;
-    -khtml-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
 }
 
 #facts{
@@ -80,12 +78,7 @@
     background-color: white;
     padding: 2.7em;
     left: 49%;
-    -webkit-touch-callout: none;
-    -webkit-user-select: none;
-    -khtml-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
+
 }
 
 #beMember{
@@ -103,7 +96,7 @@
     background-color: cadetblue
 }
 
-#home{
+.home{
     margin-top: 100px;
     min-height: 800px;
     min-height: 800px;

@@ -36,35 +36,83 @@
     </div>
     <div id="ripple">
     
+        
 
     
-    <div id="home">
+    <div class="home" id="home-about">
+        <div class="container-fluid header" id="board">
+        <h1><strong>Meet the Team</strong></h1>
+        <div class="container-fluid" id="board">
+            <div id="presidents">
+                <div >
+                <img data-aos="fade-down" data-aos-anchor="#example-anchor" data-aos-offset="0" data-aos-duration="1500" src="images/template.jpg" id="president">
+                    Georgina Aurelio<br/><strong>President</strong>
+                </div>
+                <div >
+                <img data-aos="fade-down" data-aos-anchor="#example-anchor" data-aos-offset="0" data-aos-duration="1500" src="images/template.jpg" id="president">
+                    Logan<br/><strong>Vice-President</strong>
+                </div>
+            </div>
+            
+            <div id="presidents">
+                <div >
+                <img data-aos="fade-down" data-aos-anchor="#example-anchor" data-aos-offset="0" data-aos-duration="1500" src="images/template.jpg" id="president">
+                    Logan<br/><strong>Vice-President</strong>
+                </div>
+                <div >
+                <img data-aos="fade-down" data-aos-anchor="#example-anchor" data-aos-offset="0" data-aos-duration="1500" src="images/template.jpg" id="president">
+                    Logan<br/><strong>Vice-President</strong>
+                </div>
+                <div >
+                <img data-aos="fade-down" data-aos-anchor="#example-anchor" data-aos-offset="0" data-aos-duration="1500" src="images/template.jpg" id="president">
+                    Logan<br/><strong>Vice-President</strong>
+                </div>
+                <div >
+                <img data-aos="fade-down" data-aos-anchor="#example-anchor" data-aos-offset="0" data-aos-duration="1500" src="images/template.jpg" id="president">
+                    Logan<br/><strong>Vice-President</strong>
+                </div>
+                <div >
+                <img data-aos="fade-down" data-aos-anchor="#example-anchor" data-aos-offset="0" data-aos-duration="1500" src="images/template.jpg" id="president">
+                    Logan<br/><strong>Vice-President</strong>
+                </div>
+            </div>
+    </div>
+    </div>
     <div class="container-fluid" id="facts">
         <div>
          <h1 style="margin-bottom: 15px;"><strong>Our History</strong></h1>
 
             <h2>The Beginning</h2>
-            <p data-aos="fade-right">Just4Water grew from the aspirations of two Texas A&amp;M college students, Guillermo Gomez-Salas and Mark Membreño, who had a passion for helping developing countries reduce the issue of water scarcity. With the support of other college students and professors, J4W was founded in January 2014 and built their first water well in Paso Real, Nicaragua on March 20, 2014.</p>
-            <h2>The Present</h2>
-            <p data-aos="fade-right">Placeholder</p>
+            <p data-aos="fade-right" data-aos-offset="0">Just4Water grew from the aspirations of two Texas A&amp;M college students, Guillermo Gomez-Salas and Mark Membreño, who had a passion for helping developing countries reduce the issue of water scarcity. With the support of other college students and professors, J4W was founded in January 2014 and built their first water well in Paso Real, Nicaragua on March 20, 2014.</p>
+            <h2>Founders</h2>
+            <div id="founders">
+                <div id="Guillermo">
+                <img src="images/founders/founders%20(2).png">
+                    Guillermo Gomez-Salas<strong> Founder</strong>
+                </div>
+                <div id="Guillermo">
+                <img src="images/founders/founders%20(3).png">
+                    Mark Membreño<br/><strong> Founder</strong>
+                </div>
+                <div id="Guillermo">
+                <img src="images/founders/founders%20(4).png">
+                    Ricardo Santos<br/><strong> Co-Founder</strong>
+                </div>
+                <div id="Guillermo">
+                <img src="images/founders/founders%20(5).png">
+                    Patricio Ramirez<br/><strong> Co-Founder</strong>
+                </div>
+                <div id="Guillermo">
+                <img src="images/founders/founders%20(6).png">
+                    Adolfo Portilla<br/><strong> Co-Founder</strong>
+                </div>
+
+            </div>
         </div>
     </div>
     </div>
         
-    <div class="container-fluid header" id="board">
-        <h1><strong>Meet the Team</strong></h1>
-        <div class="container-fluid">
-        <div data-aos="fade-down" id="president"></div>
-        <img data-aos="fade-down" src="images/template.jpg" id="vicepresident">
-            <div id="non-presidents">
-        <img data-aos="fade-down" src="images/template.jpg" class="team" id="sustainability">
-        <img data-aos="fade-down" src="images/template.jpg" class="team" id="informationtech">
-        <img data-aos="fade-down" src="images/template.jpg" class="team" id="publicrelations">
-        <img data-aos="fade-down" src="images/template.jpg" class="team" id="social">
-        <img data-aos="fade-down" src="images/template.jpg" class="team" id="researchanddevelopment">
-            </div>
-    </div>
-    </div>
+    
    
     <div class="container-fluid" id="beMember">
         <button type="button" class="btn btn-info">Become a Member!</button>
@@ -129,7 +177,7 @@
 </body>
     <script src="//code.jquery.com/jquery.min.js"></script>
     <script>
-    $.get("navAbout.html", function(data){
+    $.get("navbars/navAbout.html", function(data){
         $("#nav-placeholder").replaceWith(data);
     });
     </script>
