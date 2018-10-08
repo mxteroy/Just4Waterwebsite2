@@ -1,6 +1,8 @@
 @import "https://fonts.googleapis.com/css?family=Roboto+Slab:300,400,500,600,700";
 @import url('https://fonts.googleapis.com/css?family=Raleway');
 
+
+
 .noTouch{
     -webkit-touch-callout: none;
     -webkit-user-select: none;
@@ -45,6 +47,7 @@
     overflow:hidden;
     text-align: center;
     padding: .5em;
+    color: white; 
     /*box-shadow: 1px 2px 4px 4px rgba(0, 0, 0, .5);*/
 }
 
@@ -55,7 +58,7 @@
 
 }
 
-.info{
+.header-subtext{
     margin-left: 1%;
     height: auto;
     width: 1080px; 
@@ -64,45 +67,55 @@
     font-family: 'Raleway', serif;
 }
 
-.info h3{
+.header-subtext h3{
     width: 100%;
     float: left; 
-    font-family: 'Raleway', serif;
+    font-family: 'Roboto', serif;
     padding: .5em;
     font-size: 1.5em;
 }
 
-#facts{
-    text-align: center;
-    max-width: 1920px;
-    background-color: white;
-    padding: 2.7em;
-    left: 49%;
-
-}
-
-#beMember{
-    max-width: 1920px;
-    padding: 25px;
-    height: auto;
-    width: 100%; 
-    text-align: center;
-    font-family: 'Raleway', serif; 
-}
-
 #beMember button{
-    height: 60px; 
+    height: 55px; 
     width: 300px; 
     background-color: cadetblue
 }
 
 .home{
-    margin-top: 100px;
+    margin-top: 67px;
     min-height: 800px;
-    min-height: 800px;
-    height: 90%;
+    height: 93.9%;
 }
 
 #footer{
     height: 20%;
+}
+
+#main-logo{
+    -webkit-filter:brightness(0) invert(1);
+    opacity: 0.5;
+    height: 450px; 
+    width: 300px;
+}
+
+#social-media img{
+    margin-left: 20px;
+    height: 30px;
+    width: 32px; 
+}
+
+@media only screen and (min-width: 768px) {
+#social-media img{
+    margin-left: 40px; 
+    height: 50px;
+    width: 50px;
+}
+}
+
+@media only screen and (min-width: 1080px) {
+    #main-logo{
+    opacity: 0.5;
+    height: 600px; 
+    width: 400px;
+}
 }

@@ -8,7 +8,10 @@
     <link rel="stylesheet" href="assets/css/sidebar.css"/>
     <link rel="stylesheet" href="assets/css/main.css"/>
     <link rel="stylesheet" href="assets/css/carousel.css">
+    <link rel="stylesheet" href="assets/css/backgroundSS.css">
+    <link rel="stylesheet" href="assets/css/loader.css">
     <link rel="stylesheet" href="assets/css/about.css">
+    <link rel="stylesheet" href="assets/css/infographic.css">
     <!-- Bootstrap CSS CDN -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
     
@@ -34,15 +37,24 @@
 <body > 
     <div id="nav-placeholder" >
     </div>
-    <div id="ripple">
-    
+    <div id="page">
+        <!-- background slideshow-->
+    <div class="crossfade">
+      <figure></figure>
+      <figure></figure>
+      <figure></figure>
+      <figure></figure>
+      <figure></figure>
+    </div>
+    <!-- end of background slideshow -->
         
 
     
     <div class="home" id="home-about">
         <div class="container-fluid header" id="board">
-        <h1><strong>Meet the Team</strong></h1>
+        
         <div class="container-fluid" id="board">
+            <h1><strong>Meet the Team</strong></h1><br>
             <div id="presidents">
                 <div >
                 <img data-aos="fade-down" data-aos-anchor="#example-anchor" data-aos-offset="0" data-aos-duration="1500" src="images/template.jpg" id="president">
@@ -79,13 +91,16 @@
     </div>
     </div>
     <div class="container-fluid" id="facts">
-        <div>
-         <h1 style="margin-bottom: 15px;"><strong>Our History</strong></h1>
-
+        <h1 style="margin-bottom: 15px; text-align: center;"><strong>Our History</strong></h1>
+         
+            <div id="history-text">
+                
             <h2>The Beginning</h2>
             <p data-aos="fade-right" data-aos-offset="0">Just4Water grew from the aspirations of two Texas A&amp;M college students, Guillermo Gomez-Salas and Mark Membreño, who had a passion for helping developing countries reduce the issue of water scarcity. With the support of other college students and professors, J4W was founded in January 2014 and built their first water well in Paso Real, Nicaragua on March 20, 2014.</p>
-            <h2>Founders</h2>
+                </div>
+            
             <div id="founders">
+                <h2>Founders</h2>
                 <div id="Guillermo">
                 <img src="images/founders/founders%20(2).png">
                     Guillermo Gomez-Salas<strong> Founder</strong>
@@ -108,7 +123,6 @@
                 </div>
 
             </div>
-        </div>
     </div>
     </div>
         

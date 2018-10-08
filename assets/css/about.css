@@ -2,6 +2,8 @@
     display: inline-block; 
     min-height: 500px; 
     font-family: 'Raleway', serif;
+    min-height: 100%; 
+    margin-top: 80px;
 }
 
 #presidents div{
@@ -11,8 +13,8 @@
     align-content: center; 
 }
 
-#home-about{
-    margin-top: 50px; 
+#about{
+    margin-top: -100px; 
     height: auto; 
 }
 
@@ -22,8 +24,25 @@
     margin-top: 20px;
 }
 
+#facts{
+    align-content: center;
+    text-align: center;
+}
+
+#founders{
+    align-content: center;
+    text-align: center;
+    display: inline-block;
+}
+
 #founders div{
     display: inline-block; 
     width: 210px; 
     text-align: center; 
+}
+
+
+#history-text{
+    max-width: 330px; 
+    height: auto; 
 }

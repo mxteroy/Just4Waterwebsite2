@@ -1,0 +1,72 @@
+
+
+#facts{
+    overflow: hidden;
+    height: auto; 
+    text-align: left;
+    max-width: 1920px;
+    background-color: white;
+    opacity: 0.98; 
+    padding: 2.7em;
+    left: 49%;
+    align-content: center;
+}
+
+#paperplane{
+        width: 380px;
+        height: 260px;
+    }
+
+#mission{
+    margin-top: 50px;
+    text-align: center; 
+    max-width: 1500px;
+    font-family: 'Raleway', serif;
+    float:center;
+    width: 100%;
+    min-width: 300px;
+}
+
+#dyk{
+    width: 40%; 
+    min-width: 300px;
+    max-width: 300px; 
+}
+
+#beMember{
+    max-width: 1920px;
+    padding: 25px;
+    height: auto;
+    width: 100%; 
+    text-align: center;
+    font-family: 'Raleway', serif; 
+}
+
+@media only screen and (min-width: 540px){
+    #mission{
+        margin-top: 50px;
+        text-align: center; 
+        max-width: 1500px;
+        font-family: 'Raleway', serif;
+        float:right;
+        width: 400px;
+    }
+}
+
+@media only screen and (min-width: 1080px) {
+    #paperplane{
+        width: 600px; height: 400px;
+    }
+    #facts{
+           padding: 230px; 
+    }
+    #mission{
+        margin-top: 50px;
+        text-align: center; 
+        max-width: 1500px;
+        font-family: 'Raleway', serif;
+        float:right;
+        width: 400px;
+    }
+
+}

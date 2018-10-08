@@ -1,8 +1,8 @@
 jQuery(document).ready(function(){
     
     "use strict"
-    $('#ripple').ripples({
-      dropRadius: 20,
+    $('#page').ripples({
+      dropRadius: 50,
       perturbance: 0.20,
 });
 });

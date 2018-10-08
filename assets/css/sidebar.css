@@ -6,39 +6,26 @@ body {
     height: 100%;
        z-index:4;
     min-height: 600px;
-    font-family: 'Raleway', serif;
+    font-family: 'Roboto', serif;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
-body:before {
-    overflow:hidden;
-  content: "";
-  position: fixed;
-  left: 0;
-  right: 0;
-  z-index: -1;
-    align-content: center; 
-  display: block;
-  background-image: url('../../images/lightbluewater.png');
-  background-size:cover;
-  width: 100%;
-    height: 100%;
-  -webkit-filter: blur(150px);
-  -moz-filter: blur(150px);
-  -o-filter: blur(150px);
-  -ms-filter: blur(150px);
-  filter: blur(150px);
-}
+
 #navi{
     position: fixed;
     top: 0;
     z-index: 1;
     width: 100%;
     font-family: 'Raleway', serif;
-    height: 100px;
+    height: 67px;
+    background-color: white;
 }
 #info{
     height: 100px;
 }
 .navbar{
-    box-shadow: 1px 4px 4px rgba(0, 0, 0, .5);
     width: 100%;
 }
+
