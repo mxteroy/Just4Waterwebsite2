@@ -29,19 +29,6 @@
     user-select: none;
 }
 
-#logo {
-    position: relative;
-    right: 10px;
-    top: 10px;
-    height: 50px;
-    width: 40px;
-    -webkit-touch-callout: none;
-    -webkit-user-select: none;
-    -khtml-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
-}
 
 .header{
     overflow:hidden;
@@ -78,13 +65,14 @@
 #beMember button{
     height: 55px; 
     width: 300px; 
-    background-color: cadetblue
+    background-color: #f18f01;
+    color: black;
 }
 
 .home{
-    margin-top: 60px;
+    margin-top: 58px;
     
-    height: 92.0%;
+    height: 93.9%;
     min-height: 800px;
 }
 
