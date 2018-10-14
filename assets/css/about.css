@@ -1,11 +1,19 @@
+#about{
+    left: 49%;
+    margin-top: -100px; 
+    height: auto; 
+    
+}
+
 #board{
     display: inline-block; 
     min-height: 500px; 
     font-family: 'Raleway', serif;
     min-height: 100%; 
     margin-top: 80px;
-    
+    max-width: 1920px;
     color: black;
+/*    background-color: rgb(135, 241, 255);*/
 }
 
 #board h1{
@@ -19,15 +27,11 @@
     align-content: center; 
 }
 
-#about{
-    background-color: rgb(135, 241, 255, 0.2);
-    margin-top: -100px; 
-    height: auto; 
-}
+
 
 #board img{
-    height: 220px; 
-    width: 180px;  
+    max-height: 220px; 
+    max-width: 180px;  
     margin-top: 20px;
 }
 
@@ -36,11 +40,10 @@
     height: auto; 
     text-align: left;
     max-width: 1920px;
-    opacity: 0.98; 
     left: 49%;
     align-content: center;
     text-align: center;
-    background-color: rgb(0, 110, 144, 0.1);
+    background-color: rgb(0, 110, 144);
 }
 
 #founders{
