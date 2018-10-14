@@ -37,7 +37,10 @@
 
 <!--onload="myFunction()" style="margin:0;"-->
 <body > 
+<<<<<<< HEAD
     <div id="bg-ss-placeholder" style="display: none;"></div>
+=======
+>>>>>>> a29e8a0af7822011d74ef1ca01ccfd2bbe23c74d
     <div id="R4W-promo">
         <img src="images/drop.png" id="drop">
         <img src="images/running.png" id="run">
@@ -46,7 +49,11 @@
     
     <div id="page"  >
         <!-- background slideshow-->
+<<<<<<< HEAD
     <div class="crossfade" id="bg-computer">
+=======
+    <div class="crossfade">
+>>>>>>> a29e8a0af7822011d74ef1ca01ccfd2bbe23c74d
       <figure></figure>
       <figure></figure>
       <figure></figure>
@@ -149,9 +156,14 @@
 </body>
     <script>
     if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|BB|PlayBook|IEMobile|Windows Phone|Kindle|Silk|Opera Mini/i.test(navigator.userAgent)) {
+<<<<<<< HEAD
         document.getElementById("bg-computer").style.display = "none";
         $.get("mobile.html", function(data){
         $("bg-ss-placeholder").replaceWith(data);
+=======
+        $.get("mobile.html", function(data){
+        $("body").replaceWith(data);
+>>>>>>> a29e8a0af7822011d74ef1ca01ccfd2bbe23c74d
     });
     }
     </script>
