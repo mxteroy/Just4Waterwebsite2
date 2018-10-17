@@ -37,37 +37,63 @@
 
 <!--onload="myFunction()" style="margin:0;"-->
 <body > 
-
+<div class="crossfade" id="bg-computer">
+      <figure></figure>
+      <figure></figure>
+      <figure></figure>
+      <figure></figure>
+      <figure></figure>
+    </div>
     
     
     <div id="page" >
+        <div id="navi" >
+    <nav class="navbar navbar-expand-lg navbar-light bg-white" >
+     <a class="navbar-brand" href="#"></a>
         
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+          
+          
+      </button>
+
+      <div class="collapse navbar-collapse info" id="navbarTogglerDemo02" id="logo">
+        <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" href="#home">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item ">
+            <a class="nav-link" href="#facts">About</a>
+          </li>
+            
+          <li class="nav-item">
+            <a class="nav-link" href="#events">Events</a>
+          </li>
+
+        </ul>
+
+      </div>
+    </nav>
+    </div>
         <div id="R4W-promo" >
-            <a href="https://www.tinyurl.com/run4wtr" target="blank">
+            <a href="https://www.eventbrite.com/e/run4water-tickets-51053486352" target="blank">
         <img src="images/drop.png"  id="drop">
         <img src="images/running.png" id="run">
             
+        <p class="noTouch">Join the cause!</p>
         <p class="noTouch">Run4Water</p>
                 </a>
         </div>
         
         <!-- background slideshow-->
-    <div class="crossfade" id="bg-computer">
-      <figure></figure>
-      <figure></figure>
-      <figure></figure>
-      <figure></figure>
-      <figure></figure>
-    </div>
+    
     <!-- end of background slideshow -->
-    <div id="nav-placeholder" >
-    </div>
     <div class="home" id="home">
-    <div class="container-fluid header " style="width: 90%; min-width: 340px"><!--<h1 class="noTouch"><strong>Just4Water</strong></h1>-->
+    <div class="container-fluid header " style="width: 90%; min-width: 340px">
         <img src="images/logo.png" class="img-fluid rounded noTouch" alt="J4W Logo"id="main-logo">
         <div class="container-fluid header-subtext noTouch" data-aos="flip-right"
      data-aos-anchor="#example-anchor"
-     data-aos-offset="500"
+     data-aos-offset="0"
      data-aos-duration="1500">
         <h3>An Aggie student non-profit organization dedicated to providing self-sustainable and economic solutions to communities with the most need around the globe.
             </h3>
@@ -90,57 +116,17 @@
         <br>
 
     </div>
-    <div class="home" id="about">
-        
-        <!-- member list 
-        <div class="container-fluid header" id="board">
-        
-        <div class="container-fluid" id="board">
-            <h1><strong>Meet the Team</strong></h1><br>
-            <div id="presidents">
-                <div data-aos="fade-down" data-aos-offset="0" data-aos-duration="215">
-                <img  src="images/template.jpg" id="president">
-                    Georgina Aurelio<br/><strong>President</strong>
-                </div>
-                <div data-aos="fade-down" data-aos-offset="0" data-aos-duration="530">
-                <img  src="images/template.jpg" id="president">
-                    Logan<br/><strong>Vice-President</strong>
-                </div>
-            </div>
-            
-            <div id="presidents">
-                <div data-aos="fade-down" data-aos-offset="0" data-aos-duration="745">
-                <img  src="images/template.jpg" id="president">
-                    Logan<br/><strong>Vice-President</strong>
-                </div>
-                <div data-aos="fade-down" data-aos-offset="0" data-aos-duration="960">
-                <img src="images/template.jpg" id="president">
-                    Logan<br/><strong>Vice-President</strong>
-                </div>
-                <div data-aos="fade-down" data-aos-offset="0" data-aos-duration="1175">
-                <img src="images/template.jpg" id="president">
-                    Logan<br/><strong>Vice-President</strong>
-                </div>
-                <div data-aos="fade-down" data-aos-offset="0" data-aos-duration="1390">
-                <img src="images/template.jpg" id="president">
-                    Logan<br/><strong>Vice-President</strong>
-                </div >
-                <div data-aos="fade-down" data-aos-offset="0" data-aos-duration="1505">
-                <img src="images/template.jpg" id="president">
-                    Logan<br/><strong>Vice-President</strong>
-                </div>
-            </div>
-            </div>
-        </div>
-        end of board  -->
+    
+    <div id="events">
+        <img src="images/running.png">
+
     </div>
-   <div class="container-fluid" id = "history">
-        <h1 style="margin-bottom: 15px; text-align: center;"><strong>Sponsors</strong></h1>
-         
-            
-            
-            
+        
+    <!--
+    <div class="container-fluid" id = "history">
+        <h1 style="margin-bottom: 15px; text-align: center;"><strong>Sponsors</strong></h1>     
     </div>
+        -->
         
     <div class="container-fluid" id="beMember">
         <button type="button" class="btn">Become a Member!</button>
@@ -156,39 +142,15 @@
   <!-- Footer -->
         </div>
 </body>
-    <script>
-    if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|BB|PlayBook|IEMobile|Windows Phone|Kindle|Silk|Opera Mini/i.test(navigator.userAgent)) {
-        document.getElementById("bg-computer").style.display = "none";
-    });
-    }
-    </script>
+    
+
+    
     <!-- animations-->
     <script>
     AOS.init(); 
     </script>
 
-
-    <!--Loading Screen-->
-   <!-- <script>
-    var myVar;
-
-    function myFunction() {
-        myVar = setTimeout(showPage, 1000);
-    }
-
-    function showPage() {
-      document.getElementById("loader").style.display = "none";
-      document.getElementById("page").style.display = "block";
-    }
-    </script>
-    <!--end of loading screen-->
     <script src="//code.jquery.com/jquery.min.js"></script>
-    <script>
-    $.get("navbars/navHome.html", function(data){
-        $("#nav-placeholder").replaceWith(data);
-    });
-    </script>
-    
     
     
     <!-- jQuery CDN - Slim version (=without AJAX) -->
@@ -202,7 +164,7 @@
     </script>
     
     <!-- Ripple Stuff -->
-    <script src="assets/js/jquery.ripples-min.js"></script>
+        <script src="assets/js/jquery.ripples-min.js"></script>
     <script src="assets/js/ripple.js"></script>
     
     

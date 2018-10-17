@@ -12,10 +12,11 @@
 #R4W-promo p{
     position: relative; 
     color: black;
-    top: 15px; 
+    top: 17px; 
     left: 10px; 
-    font-size: 14px;
+    font-size: 9px;
     font-family: 'Raleway', serif;
+    margin-bottom: 1px;
 }
 #run{
     position: relative;

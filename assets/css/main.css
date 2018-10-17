@@ -1,6 +1,8 @@
 @import "https://fonts.googleapis.com/css?family=Roboto+Slab:300,400,500,600,700";
 @import url('https://fonts.googleapis.com/css?family=Raleway');
 
+html, body {min-height: 100%;}
+body {background-size: cover;}
 
 
 .noTouch{
@@ -59,7 +61,7 @@
     float: left; 
     font-family: 'Roboto', serif;
     padding: .5em;
-    font-size: 1.5em;
+    font-size: 1.1em;
 }
 
 #beMember button{
@@ -70,15 +72,12 @@
 }
 
 .home{
-    margin-top: 58px;
+    margin-top: 57px;
     
     height: 93.9%;
-    min-height: 800px;
+    min-height: 500px;
 }
 
-#footer{
-    height: 20%;
-}
 
 #main-logo{
     -webkit-filter:brightness(0) invert(1);
