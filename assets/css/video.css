@@ -1,6 +1,8 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway');
 
 #video-div{
+    width: 100%;
+    height: auto;
     margin-top: 20px; 
     margin-bottom: 20px;
 }
