@@ -1,8 +1,56 @@
 #events{
-    display: block;
+    width: 100%;
+    max-width: 1920px; 
+    height: auto;
+    padding: 20px 40px 40px 20px; 
+    background-color: #99c24d;
 }
 
-#event-run{
-    max-height: 300px; 
-    max-width: 300px;
+#event-art img{
+    height: 130px;
+    width: 130px; 
+    margin-bottom: 20px;
+}
+
+#event-art h1{
+    font-size: 3em;
+    font-family: 'Raleway', serif;
+    color: #006e90;
+}
+
+#event-details{
+    font-family: 'Roboto', serif;
+    display: block; 
+    text-align: center;
+}
+
+#event-details h3{
+    margin-bottom: 30px; 
+}
+
+
+@media only screen and (min-width: 468px){
+    #event-art img{
+        height: 180px;
+        width: 180px; 
+    }
+    
+    #event-art h1{
+        font-size: 6em;
+    }
+}
+
+@media only screen and (min-width: 768px){
+    #event-art img{
+        height: 300px;
+        width: 300px; 
+    }
+}
+
+
+@media only screen and (min-width: 1080px){
+    #event-art img{
+        height: 400px;
+        width: 400px; 
+    }
 }

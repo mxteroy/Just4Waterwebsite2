@@ -14,6 +14,7 @@
     <link rel="stylesheet" href="assets/css/about.css">
         <link rel="stylesheet" href="assets/css/promo.css">
     <link rel="stylesheet" href="assets/css/events.css">
+    <link rel="stylesheet" href="assets/css/video.css">
 
     <!-- Bootstrap CSS CDN -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
@@ -68,7 +69,7 @@
           </li>
             
           <li class="nav-item">
-            <a class="nav-link" href="#events">Events</a>
+            <a class="nav-link" href="#events"><strong>Run4Water</strong></a>
           </li>
 
         </ul>
@@ -79,7 +80,7 @@
         <div id="R4W-promo" >
             <a href="https://www.eventbrite.com/e/run4water-tickets-51053486352" target="blank">
         <img src="images/drop.png"  id="drop">
-        <img src="images/running.png" id="run">
+        <!--<img src="images/running.png" id="run">-->
             
         <p class="noTouch">Join the cause!</p>
         <p class="noTouch"><strong>Run4Water</strong></p>
@@ -103,11 +104,9 @@
         
     </div>
         <div id="social-media" id="noTouch">
-            <a href="https://www.facebook.com/Just4Water"><img src="img/smlogos/facebooklogo.png" ></a>
-            <img src="img/smlogos/instagramlogo.png">
-            <img src="img/smlogos/youtubelogo.png">
-            <img src="img/smlogos/gmaillogo.png">
-            <img src="img/smlogos/discordlogo.png">
+            <a href="https://www.facebook.com/Just4Water" target="blank"><img src="img/smlogos/facebooklogo.png" ></a>
+            <a href="https://www.instagram.com/just_4_water/" target="blank"><img src="img/smlogos/instagramlogo.png"></a>
+            <a href="https://www.discord.gg/bVFVReU" target="blank"><img src="img/smlogos/discordlogo.png"></a>
         </div>
     </div>
     <div class="container-fluid noTouch" id="facts">
@@ -118,10 +117,28 @@
         <br>
 
     </div>
-    
-    <div id="events">
-        <img src="images/running.png" id="event-run">
+        
+    <div id="video-div">
+        <iframe id="video" src="https://www.youtube.com/embed/MkAoyGK2tUw" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen data-aos="zoom-in-up"></iframe>
+    </div>
+        
+    <div class="container-fluid" id="events">
+        
+        <div class="container-fluid" id="event-art">
+                <h1><strong>#run4water</strong></h1>
+                
+                <img src="images/running.png" id="event-run">
+                
+            </div>
+        
+            <div class="container-fluid" id="event-details">
+                <h3 >A 5k to help raise money to for missions that reach out to communities in need</h3>
+                <p>Where: <strong>Rudder Plaza, 401 Joe Routt Blvd College Station, Texas 77843</strong></p>
+                <p>When: <strong>Sunday, October 28th, 2018 9:30AM-11:00AM</strong></p>
+                <a href="https://www.eventbrite.com/e/run4water-tickets-51053486352" target="blank"><button  type="button" class="btn" style="font-family: 'Raleway', serif; background-color: #006e90; olor: black;" >Sign Up</button></a>
+            </div>
 
+            
     </div>
         
     <!--
@@ -131,7 +148,7 @@
         -->
         
     <div class="container-fluid" id="beMember">
-        <button type="button" class="btn">Become a Member!</button>
+        <a href="mailto:tamuj4w@gmail.com"><button type="button" class="btn" >Become a Member!</button></a>
     </div>
     
 
@@ -139,6 +156,7 @@
     <div class="footer-copyright text-center py-3">© 2018 Copyright:
       <a href="index.html"> Just4Water.com</a>
     </div>
+        Designed by: James Eroy
     <!-- Copyright -->
 
   <!-- Footer -->

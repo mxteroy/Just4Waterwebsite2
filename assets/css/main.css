@@ -87,6 +87,11 @@ body {background-size: cover;}
     width: 200px;
 }
 
+#social-media{
+    position: relative;
+    margin-top: 30; 
+}
+
 #social-media img{
     margin-left: 20px;
     height: 30px;

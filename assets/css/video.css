@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+#video-div{
+    margin: 20px;
+}
+
+#video-div h1{
+    color: #f18f01;
+    font-family: 'Raleway', serif;
+}
+
+#video{
+    width: 350px;
+    height: 200px;
+}
+
+@media only screen and (min-width: 445px){
+    #video{
+        width: 445px;
+        height: 250px;
+    }
+}
+
+@media only screen and (min-width: 720px){
+    #video{
+        width: 640px;
+        height: 360px;
+    }
+    
+    #video-div{
+        margin: 40px; 
+    }
+}
