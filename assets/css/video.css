@@ -1,7 +1,8 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway');
 
 #video-div{
-    margin: 40px 0 40 0; 
+    margin-top: 20px; 
+    margin-bottom: 20px;
 }
 
 #video{
@@ -23,6 +24,7 @@
     }
     
     #video-div{
-        margin: 40px 0 40 0; 
+        margin-top: 40px; 
+        margin-bottom: 40px;
     }
 }
