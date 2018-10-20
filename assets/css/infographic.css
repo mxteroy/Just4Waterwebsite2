@@ -9,6 +9,9 @@
     opacity: 1; 
     left: 49%;
     align-content: center;
+    -webkit-box-shadow: 0px 0px 50px -1px rgba(135,241,255,1);
+    -moz-box-shadow: 0px 0px 50px -1px rgba(135,241,255,1);
+    box-shadow: 0px 0px 50px -1px rgba(135,241,255,1);
 }
 
 #paperplane{
