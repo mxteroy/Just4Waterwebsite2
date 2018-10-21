@@ -3,7 +3,8 @@
     max-width: 1920px; 
     height: auto;
     padding: 20px 40px 40px 20px; 
-    background-color: #99c24d;
+    background: rgb(253,231,76);
+background: linear-gradient(90deg, rgba(253,231,76,1) 0%, rgba(153,194,77,1) 98%);
     -webkit-box-shadow: 0px 0px 50px -1px rgba(135,241,255,1);
     -moz-box-shadow: 0px 0px 50px -1px rgba(135,241,255,1);
     box-shadow: 0px 0px 50px -1px rgba(135,241,255,1);

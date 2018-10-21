@@ -98,6 +98,10 @@ body {background-size: cover;}
     width: 32px; 
 }
 
+#footer{
+    color: white;
+}
+
 @media only screen and (min-width: 768px) {
 #social-media img{
     margin-left: 40px; 
