@@ -1,89 +1,12 @@
-.crossfade > figure {
+#bg-computer{
     position: fixed;
-  animation: imageAnimation 20s linear infinite 0s;
-  backface-visibility: hidden;
-  background-size: cover;
-  background-position: center center;
-  color: transparent;
-  height: 100%;
-  left: 0px;
-  opacity: 0;
-  top: 0px;
-  width: 100%;
-  z-index: -1;
-   -webkit-filter:brightness(40%);
+    background-image: url("../../img/nicaraguaGroup.JPG");
+        height: 100%; 
+    width: 100%;
+    z-index: -1;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    -webkit-filter:brightness(40%);
     filter:brightness(40%);
-    
-/*filter: blur(2px);
-  -webkit-filter: blur(1.5px);
-    */
-}
-
-.crossfade > figure:nth-child(1) { 
-    background: -webkit-linear-gradient( bottom, rgb(135, 241, 255, 0.6), rgb(0, 110, 144, 0.6) ),url('../../img/nicaraguaGroup.JPG') center;
-    background-attachment: fixed;
-    background-position: center;
-    background-size: cover;
-   
-}
-
-.crossfade > figure:nth-child(2) {
-  animation-delay: 4s;
-  background: -webkit-linear-gradient( bottom, rgb(0, 110, 144, 0.6), rgb(241, 143, 1, 0.6) ),url('../../img/nicaraguaGroup.JPG') center;
-    background-attachment: fixed;
-    background-position: center;
-    background-size: cover;
-}
-
-.crossfade > figure:nth-child(3) {
-  animation-delay: 8s;
-  background: -webkit-linear-gradient( bottom, rgb(241, 143, 1, 0.6), rgb(153, 194, 77, 0.6) ),url('../../img/nicaraguaGroup.JPG') center;
-    background-attachment: fixed;
-    background-position: center;
-    background-size: cover;
-}
-
-.crossfade > figure:nth-child(4) {
-  animation-delay: 12s;
-  background: -webkit-linear-gradient( bottom  rgb(153, 194, 77, 0.6)  , rgb(253, 231, 76, 0.6) ),url('../../img/nicaraguaGroup.JPG') center;
-    background-attachment: fixed;
-    background-position: center;
-    background-size: cover;
-
-}
-
-.crossfade > figure:nth-child(5) {
-  animation-delay: 16s;
-  background: -webkit-linear-gradient( rgb(253, 231, 76, 0.6) , rgb(135, 241, 255, 0.6) ),url('../../img/nicaraguaGroup.JPG') center;
-    background-attachment: fixed;
-    background-position: center;
-    background-size: cover;
-}
-
-
-@keyframes 
-imageAnimation {  0% {
- animation-timing-function: ease-in;
- opacity: .1;
-}
- 8% {
- animation-timing-function: ease-out;
- opacity: .3;
-}
- 17% {
- opacity: .3
-}
- 25% {
- opacity: 0.6
-}
-  50% {
- opacity: 0.4
-}
-      75% {
- opacity: 0.25
-}  
-
- 100% {
- opacity: 0.1
-}
 }
