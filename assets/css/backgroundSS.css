@@ -7,12 +7,14 @@
     -webkit-background-attachment: fixed;
     -webkit-background-position: center;
     -webkit-background-size: cover;
+    -webkit-background-attachment: scroll;
     -moz-background-attachment: fixed;
     -moz-background-position: center;
     -moz-background-size: cover;
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
+    background-attachment: scroll;
     -webkit-filter:brightness(40%);
     -moz-filter:brightness(40%);
     filter:brightness(40%);
