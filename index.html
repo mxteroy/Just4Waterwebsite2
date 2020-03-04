@@ -40,6 +40,26 @@
 <!--onload="myFunction()" style="margin:0;"-->
 <body > 
 
+    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Donate to the Cause</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+                <div class="gfm-embed" data-url="https://www.gofundme.com/f/just4water/widget/large"></div><script defer src="https://www.gofundme.com/static/js/embed.js"></script>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+              <button type="button" class="btn btn-primary" onclick="window.open('https://ie.gofundme.com/f/just4water')">Go to Donation Site</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    
     <div class="crossfade" id="bg-computer">
     </div>
     
@@ -69,12 +89,23 @@
           </li>
 
         </ul>
+        <ul class="nav navbar-nav navbar-right"  style="font-size: 20px;">
+            <li><a data-target="#exampleModal" data-toggle="modal" class="MainNavText" id="MainNavHelp" 
+              href="#exampleModal"><span class="glyphicon glyphicon-log-in"></span>Donate to the Cause</a></li>
+            <!-- <li><button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal" style="font-size: 13px;">
+                Donate to the Cause
+              </button>
+               -->
+              </li>
+
+            
+          </ul>
 
       </div>
     </nav>
     </div>
         <div id="R4W-promo" >
-            <a href="https://www.eventbrite.com/e/run4water-tickets-51053486352" target="blank">
+            <a href="https://www.facebook.com/events/1289634617903987/?notif_t=plan_edited&notif_id=1579295722407837" target="blank">
         <img src="images/drop.png"  id="drop">
         <!--<img src="images/running.png" id="run">-->
             
@@ -101,8 +132,9 @@
     </div>
         <div id="social-media" id="noTouch">
             <a href="https://www.facebook.com/Just4Water" target="blank"><img src="img/smlogos/facebooklogo.png" ></a>
-            <a href="https://www.instagram.com/just_4_water/" target="blank"><img src="img/smlogos/instagramlogo.png"></a>
-            <a href="https://www.discord.gg/bVFVReU" target="blank"><img src="img/smlogos/discordlogo.png"></a>
+            <a href="https://www.instagram.com/just4water/" target="blank"><img src="img/smlogos/instagramlogo.png"></a>
+            <a href="https://web.groupme.com/join_group/57112583/9bGzhp0d" target="blank"><img src="img/smlogos/groupmelogo.png"></a>
+            <!-- <a href="https://www.discord.gg/bVFVReU" target="blank"><img src="img/smlogos/discordlogo.png"></a> -->
         </div>
     </div>
     <div class="container-fluid noTouch" id="facts">
@@ -129,10 +161,10 @@
         
             <div class="container-fluid" id="event-details">
                 <h3 >A 5k to help raise money for missions that reach out to communities in need</h3>
-                <p>Where: <strong>Rudder Plaza, 401 Joe Routt Blvd College Station, Texas 77843</strong></p>
-                <p>When: <strong>Sunday, October 28th, 2018 9:30AM</strong></p>
-                <p>Price: <strong>$12 per person</strong></p>
-                <a href="https://www.eventbrite.com/e/run4water-tickets-51053486352" target="blank"><button  type="button" class="btn" style="font-family: 'Raleway', serif; background-color: #006e90; olor: black;" >Sign Up</button></a>
+                <p>Where: <strong><a href="https://www.google.com/maps/dir//Aggie+Park,+College+Station,+TX+77840/@30.6100854,-96.3398731,17z/data=!4m9!4m8!1m0!1m5!1m1!1s0x8646839b8ce042d7:0x374d2a9f1db75d09!2m2!1d-96.3376844!2d30.6100854!3e0">Aggie Park</a></strong></p>
+                <p>When: <strong>Saturday, February 15, 2018 8:30AM</strong></p>
+                <p>Price: <strong>$25 per person</strong></p>
+                <a href="https://www.facebook.com/events/1289634617903987/?notif_t=plan_edited&notif_id=1579295722407837" target="blank"><button  type="button" class="btn" style="font-family: 'Raleway', serif; background-color: #3389FF;" >Sign Up</button></a>
             </div>
 
             
@@ -152,7 +184,7 @@
     <!-- Copyright -->
     <div id="footer">
         <p>Designed by: James Eroy</p>
-        <p>© 2018 Copyright:
+        <p>© 2020 Copyright:
       <a href="index.html"> Just4Water.com</a></p>
         
     </div>
